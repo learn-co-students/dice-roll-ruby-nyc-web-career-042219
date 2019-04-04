@@ -9,6 +9,5 @@
 
 def roll
   dice = [1, 2, 3, 4, 5, 6]
-  x = rand(0..5)
-  return dice[x]
+  return dice[rand(0..5)]
 end
